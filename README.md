@@ -1,12 +1,14 @@
-# Katlyn Doro — Track & Field
+# Katlyn Doro — Student-Athlete Profile
 
-This is a static website package for GitHub Pages. `index.html` is at the repository root and the two optimized videos and poster images are in `media/`.
+A responsive GitHub Pages site for Katlyn Doro, junior cross-country and track athlete (Class of 2028).
 
-## Publish with GitHub Pages
-1. Create a GitHub repository, for example `katlyn-doro`.
-2. Upload the contents of this folder so `index.html` and `media/` are at the repository root.
-3. Open the repository’s **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and `/(root)`, then save.
-5. GitHub will show the published address on the Pages settings screen.
+## Files
+- `index.html` — homepage, athlete bio, latest 5K result, Runner of the Week feature, and video highlights
+- `cross-country.html` — cross-country profile and latest 5K result
+- `track.html` — track profile and highlight footage
+- `styles.css` — shared visual design
+- `media/` — existing race video and poster assets
 
-The page uses only relative asset paths, so it works at a GitHub Pages project URL.
+The Runner of the Week feature embeds the original SKG Athletics Instagram post. That card needs an internet connection to load; the link to the post remains available as a fallback.
+
+To publish on GitHub Pages, upload the contents of this folder to the repository's Pages branch or configured publishing folder.

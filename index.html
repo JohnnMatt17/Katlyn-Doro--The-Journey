@@ -3,71 +3,57 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#101b27">
-  <meta name="description" content="Track and cross-country results and video highlights for Katlyn Doro.">
-  <title>Katlyn Doro | Track &amp; Field</title>
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='11' fill='%23d5fa55'/%3E%3Cpath d='M10 29 20 10l10 19h-6l-4-8-4 8z' fill='%23101b27'/%3E%3C/svg%3E">
-  <style>
-    :root { color-scheme: dark; --ink:#f3f5ef; --muted:#aab5bd; --bg:#101b27; --panel:#182634; --line:#344553; --lime:#d5fa55; --coral:#ff795f; --max:1120px; }
-    * { box-sizing:border-box; }
-    html { scroll-behavior:smooth; }
-    body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.55 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-    a { color:inherit; }
-    .wrap { width:min(var(--max), calc(100% - 40px)); margin-inline:auto; }
-    .topline { border-bottom:1px solid var(--line); }
-    .nav { min-height:68px; display:flex; align-items:center; justify-content:space-between; gap:24px; }
-    .brand { display:flex; align-items:center; gap:11px; font-weight:750; letter-spacing:.02em; }
-    .mark { width:29px; height:29px; display:grid; place-items:center; color:var(--bg); background:var(--lime); border-radius:9px; font-size:14px; font-weight:900; }
-    .nav a { color:var(--muted); text-decoration:none; font-size:14px; }
-    .nav a:hover, .nav a:focus-visible { color:var(--lime); }
-    .hero { padding:76px 0 54px; position:relative; overflow:hidden; }
-    .hero::after { content:""; position:absolute; width:390px; height:390px; border:1px solid rgba(213,250,85,.14); border-radius:50%; right:-80px; top:-210px; box-shadow:0 0 0 34px rgba(213,250,85,.035), 0 0 0 72px rgba(213,250,85,.025); pointer-events:none; }
-    .eyebrow { color:var(--lime); text-transform:uppercase; letter-spacing:.16em; font-size:12px; font-weight:800; margin:0 0 12px; }
-    h1 { font-size:clamp(3rem, 8vw, 6.9rem); line-height:.94; letter-spacing:-.065em; max-width:850px; margin:0; }
-    .intro { display:flex; align-items:flex-end; justify-content:space-between; gap:26px; margin-top:30px; }
-    .intro p { color:var(--muted); max-width:510px; margin:0; font-size:18px; }
-    .sport-pill { display:inline-flex; align-items:center; gap:9px; border:1px solid var(--line); border-radius:999px; padding:10px 14px; color:#dce3e5; white-space:nowrap; font-size:14px; }
-    .sport-pill span { width:8px; height:8px; background:var(--coral); border-radius:100%; }
-    .result-band { border-top:1px solid var(--line); border-bottom:1px solid var(--line); background:#14222e; }
-    .result { display:grid; grid-template-columns:1fr auto; align-items:center; gap:24px; padding:25px 0; }
-    .result-label { display:block; color:var(--muted); text-transform:uppercase; letter-spacing:.12em; font-weight:700; font-size:12px; }
-    .result-name { margin:6px 0 0; font-size:19px; font-weight:650; }
-    .result-time { color:var(--lime); font-size:clamp(2.6rem, 6vw, 4.4rem); font-weight:800; letter-spacing:-.055em; line-height:1; }
-    main section { padding:68px 0; }
-    .section-head { display:flex; justify-content:space-between; align-items:end; gap:24px; margin-bottom:24px; }
-    h2 { font-size:clamp(1.8rem, 4vw, 2.7rem); letter-spacing:-.04em; line-height:1.1; margin:0; }
-    .section-head p { color:var(--muted); margin:0; max-width:410px; }
-    .videos { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; }
-    .video-card { background:var(--panel); border:1px solid var(--line); border-radius:16px; overflow:hidden; }
-    video { width:100%; display:block; aspect-ratio:16/10; object-fit:cover; background:#0b1118; }
-    .video-copy { padding:17px 18px 19px; }
-    .video-copy h3 { margin:0; font-size:18px; }
-    .video-copy p { margin:5px 0 0; color:var(--muted); font-size:14px; }
-    .source-note { color:var(--muted); border-top:1px solid var(--line); padding-top:17px; margin:24px 0 0; font-size:13px; }
-    footer { border-top:1px solid var(--line); padding:24px 0 34px; color:var(--muted); font-size:13px; }
-    :focus-visible { outline:3px solid var(--lime); outline-offset:3px; }
-    @media(max-width:700px) { .wrap{width:min(100% - 28px,var(--max))}.hero{padding:58px 0 42px}.intro{align-items:flex-start;flex-direction:column}.intro p{font-size:17px}.result{padding:21px 0}.videos{grid-template-columns:1fr}main section{padding:52px 0}.section-head{align-items:flex-start;flex-direction:column;gap:10px}video{aspect-ratio:16/11} }
-    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
-  </style>
+  <meta name="theme-color" content="#07151f">
+  <meta name="description" content="Meet Katlyn Doro, junior cross-country and track athlete. Explore her latest 5K result, athlete bio, and race highlights.">
+  <title>Katlyn Doro | Cross Country &amp; Track</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='11' fill='%2321c3cf'/%3E%3Cpath d='M10 29 20 10l10 19h-6l-4-8-4 8z' fill='%2307202a'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="topline"><div class="wrap nav"><div class="brand"><span class="mark" aria-hidden="true">K</span><span>Katlyn Doro</span></div><a href="#highlights">Video highlights</a></div></div>
+  <div class="topline"><div class="wrap nav">
+    <a class="brand" href="index.html"><span class="mark" aria-hidden="true">K</span><span>Katlyn Doro</span></a>
+    <nav class="nav-links" aria-label="Main navigation"><a href="cross-country.html">Cross Country</a><a href="track.html">Track</a></nav>
+  </div></div>
   <header class="wrap hero">
-    <p class="eyebrow">Cross country · Track &amp; field</p>
-    <h1>Katlyn<br>Doro</h1>
-    <div class="intro"><p>A place to follow Katlyn’s race results and track highlights.</p><span class="sport-pill"><span aria-hidden="true"></span>Distance running</span></div>
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow">Student-athlete profile · Class of 2028</p>
+        <h1>Katlyn<br><span>Doro</span></h1>
+        <p class="hero-copy">Junior distance runner building toward her next finish line through consistent work, a team-first mindset, and a commitment to getting better every season.</p>
+        <div class="hero-meta"><span class="meta-pill">Junior</span><span class="meta-pill">Cross country &amp; track</span><span class="meta-pill">Collegiate athletics interest</span></div>
+      </div>
+      <aside class="runner-card" aria-label="Runner of the Week feature">
+        <div class="runner-label"><strong>Runner of the Week</strong><span>Seckinger Jaguars</span></div>
+        <a class="runner-image" href="https://www.instagram.com/p/DengwAHEeRJ/" target="_blank" rel="noopener noreferrer" aria-label="Open Katlyn's Runner of the Week post on Instagram">
+          <img src="media/runner-of-week.jpeg" alt="Gwinnett County Runner of the Week graphic featuring Katlyn Doro Jr.">
+          <span>View original SKG Athletics post ↗</span>
+        </a>
+      </aside>
+    </div>
   </header>
-  <div class="result-band"><div class="wrap result"><div><span class="result-label">2025 cross-country season</span><p class="result-name">Overall personal record</p></div><div class="result-time" aria-label="20 minutes 42 seconds">20:42</div></div></div>
+  <div class="result-band"><div class="wrap result"><div><span class="result-label">Latest 5K result</span><p class="result-name">Cross-country season · 5,000 meters</p></div><div><div class="result-time" aria-label="20 minutes 22 point 70 seconds">20:22.70</div><div class="result-date">October 17, 2026</div></div></div></div>
   <main>
+    <section class="wrap" aria-labelledby="about-title">
+      <div class="section-head"><h2 id="about-title">Built by the work</h2><p>A thoughtful, coach-ready introduction to Katlyn’s approach as a student-athlete.</p></div>
+      <div class="bio-grid">
+        <article class="bio-card"><h3>About Katlyn</h3><p>Katlyn is a junior distance runner who approaches cross country and track with consistency, coachability, and a team-first mindset. She sets ambitious goals, embraces the daily work behind improvement, and continues to build confidence and resilience through competition.</p><p>Her selection as the first SKG Distance athlete named Gwinnett County Runner of the Week reflects the commitment she brings to training and race day. As she looks ahead to college, Katlyn is focused on continuing to grow as both a student and an athlete and contributing to a program that values hard work, learning, and team success.</p></article>
+        <aside class="recognition"><p class="eyebrow">Recent recognition</p><h3>Gwinnett County Runner of the Week</h3><p>Recognized by SKG Athletics as the first SKG Distance athlete selected for the honor.</p></aside>
+      </div>
+      <div class="photo-feature"><img src="media/katlyn-team.jpeg" alt="Katlyn standing with the Seckinger Jaguars mascot at school." loading="lazy"><div><p class="eyebrow">Team &amp; community</p><h3>Devotion over emotion</h3><p>Katlyn celebrates her school community alongside the Seckinger Jaguars mascot. Her team-first approach is part of the work she brings to every season.</p></div></div>
+    </section>
+    <section class="wrap" aria-labelledby="explore-title">
+      <div class="section-head"><h2 id="explore-title">Explore her seasons</h2><p>Follow Katlyn’s cross-country racing and track highlights in their own sections.</p></div>
+      <div class="section-tabs"><a href="cross-country.html">Explore Cross Country →</a><a href="track.html">Explore Track →</a></div>
+    </section>
     <section class="wrap" id="highlights" aria-labelledby="highlights-title">
-      <div class="section-head"><h2 id="highlights-title">Video highlights</h2><p>Race-day and track footage from Katlyn’s season.</p></div>
+      <div class="section-head"><h2 id="highlights-title">Race-day highlights</h2><p>Selected footage from Katlyn’s cross-country and track seasons.</p></div>
       <div class="videos">
-        <article class="video-card"><video controls playsinline preload="metadata" poster="media/race-finish.jpg" aria-label="Race finish line video"><source src="media/race-finish.mp4" type="video/mp4">Your browser does not support embedded video.</video><div class="video-copy"><h3>Race finish</h3><p>Cross-country meet footage</p></div></article>
+        <article class="video-card"><video controls playsinline preload="metadata" poster="media/race-finish.jpg" aria-label="Cross-country race finish video"><source src="media/race-finish.mp4" type="video/mp4">Your browser does not support embedded video.</video><div class="video-copy"><h3>Race finish</h3><p>Cross-country meet footage</p></div></article>
         <article class="video-card"><video controls playsinline preload="metadata" poster="media/track-highlight.jpg" aria-label="Track highlight video"><source src="media/track-highlight.mp4" type="video/mp4">Your browser does not support embedded video.</video><div class="video-copy"><h3>Track highlight</h3><p>Track meet footage</p></div></article>
       </div>
-      <p class="source-note">The 20:42 personal record is transcribed from the 2025 cross-country results sheet provided by her family.</p>
+      <p class="source-note">The Runner of the Week feature is linked to the original SKG Athletics post. Latest race result provided by Katlyn’s family.</p>
     </section>
   </main>
-  <footer><div class="wrap">Katlyn Doro · Cross country and track &amp; field</div></footer>
+  <footer><div class="wrap footer-inner"><span>Katlyn Doro · Cross country &amp; track</span><span>Student-athlete profile · Class of 2028</span></div></footer>
 </body>
 </html>
